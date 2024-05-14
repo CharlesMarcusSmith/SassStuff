@@ -1,0 +1,12 @@
+.RedSquare {
+    width: 20px;
+    height: 20px;
+    background-color: #f00;
+    animation: bounce 1.5s ease-in-out infinite alternate;
+    border-radius: 50%;
+}
+
+@keyframes bounce { 
+    from { transform: 
+    translateY(0); } 
+to { transform: translateY(100px);}}
